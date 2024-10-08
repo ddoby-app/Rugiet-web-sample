@@ -17,8 +17,8 @@
 
  -- Create a new directory in hadrian-flow-automation->src->java, create a directory and name it "resources". Inside, create a file and name it "config.properties". Open this file in IntelliJ. Add the following information (and add your credentials as well):
 
-     flow.email = 
-     flow.password = 
+     login.email = 
+     login.password = 
      
  -- (MAC ONLY) Open Terminal. Navigate to IdeaProjects/Rugiet-web-sample/Drivers. Enter the following: "xattr -d com.apple.quarantine chromedriver" (this allows chromedriver to bypass Mac security since it was not downloaded from the App Store).    
 
