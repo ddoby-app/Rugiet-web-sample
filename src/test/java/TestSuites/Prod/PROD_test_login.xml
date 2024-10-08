@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Test Login">
+    <test name = "Test Login Flow">
+        <parameter name="environment" value="https://prod.hadrian.co/"></parameter>
+        <parameter name="environmentLabel" value="PROD"></parameter>
+        <parameter name="reportType" value="Data Validation"></parameter>
+        <parameter name="extension" value=".html"></parameter>
+        <classes>
+            <class name="TestCases.TestLogin"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 2.177 sec <<< FAILURE!
+beforeTest(TestCases.TestLogin)  Time elapsed: 2.109 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "this.driver" is null
+	at TestCases.TestLogin.beforeTest(TestLogin.java:23)
+

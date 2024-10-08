@@ -1,0 +1,7 @@
+Base\BaseMethods.class
+Base\DebugColor.class
+PageObjects\HomePage.class
+Base\TestMethods.class
+TestCases\TestLogin.class
+Base\TestMethods$1.class
+Base\BaseMethods$1.class
